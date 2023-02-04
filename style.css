@@ -37,11 +37,17 @@ header {
 
 .personalInfo {
   width: 35%;
-  margin: 5%;
+  padding: 5%;
 }
 
 .skillsSec {
-  margin: 5%;
+  padding: 5%;
+}
+
+.personalInfo div, .skillsSec div {
+  height: 5px;
+  width: 90px;
+  background-color: #545454;
 }
 
 body {
@@ -54,8 +60,12 @@ header {
   background-position: 50% 30%;
 }
 
-.mainInner :nth-child(1) {
+.personalInfo {
   background-color: #FFFFFF;
+}
+
+.skillsSec {
+  background-color: #EFEFEF;
 }
 
 header {

@@ -10,8 +10,10 @@ header {
     background-position: 50% 30%;
 }
 
-.mainInner {
-    :nth-child(1) {
-        background-color: $white;
-    }
+.personalInfo {
+    background-color: $background-pallete1;
+}
+
+.skillsSec {
+    background-color: $background-pallete2;
 }

@@ -10,15 +10,20 @@
 }
 
 header {
+  margin-top: 5%;
   height: 400px;
 }
 
-.backgroundImage {
-  height: 400px;
-  width: 90%;
-  position: absolute;
-  top: 0;
-  z-index: -1;
+.profilePic {
+  overflow: hidden;
+  height: 250px;
+  width: 250px;
+  border-radius: 125px;
+}
+.profilePic img {
+  height: 350px;
+  position: relative;
+  bottom: 50px;
 }
 
 body {
@@ -30,8 +35,7 @@ body {
   font-family: "Roboto", sans-serif;
 }
 
-header div {
-  background: url("images/greek-building.jpg");
+header {
+  background-image: linear-gradient(rgba(255, 255, 255, 0.5), rgba(255, 255, 255, 0.5)), url("images/greek-building.jpg");
   background-position: 50% 30%;
-  opacity: 0.6;
 }/*# sourceMappingURL=style.css.map */

@@ -1,9 +1,5 @@
 
-@mixin flex-me {
-    display: flex;
-    justify-content: flex-start;
-    align-items: center;
-}
+
 
 .container {
     max-width: 90%;
@@ -12,14 +8,19 @@
 }
 
 header {
+    margin-top: 5%;
     height: 400px;
     // display: ;
 }
 
-.backgroundImage {
-    height: 400px;
-    width: 90%;
-    position: absolute;
-    top: 0;
-    z-index: -1;
+.profilePic {
+    overflow: hidden;
+    height: 250px;
+    width: 250px;
+    border-radius: 125px;
+    img {
+        height: 350px;
+        position: relative;
+        bottom: 50px;
+    }
 }

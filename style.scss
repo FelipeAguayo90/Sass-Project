@@ -12,9 +12,9 @@ body {
     
 // }
 
-header div {
-    background:url('images/greek-building.jpg');
+header {
+    background-image: linear-gradient(rgba(255,255,255,0.5), rgba(255,255,255,0.5)), url('images/greek-building.jpg');
     background-position: 50% 30%;
-    opacity: .6;
+    
     
 }

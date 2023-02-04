@@ -1,0 +1,20 @@
+@use 'base/reset';
+@use 'layout/spacing';
+@use 'base/colors';
+
+body {
+    font-family: 'Roboto', sans-serif;
+}
+
+header {
+    
+    // opacity: .8;
+    
+}
+
+header div {
+    background:url('images/greek-building.jpg');
+    background-position: 50% 30%;
+    opacity: .6;
+    
+}

@@ -35,19 +35,26 @@ header {
   bottom: 50px;
 }
 
-.personalInfo {
+main .personalInfo {
   width: 35%;
   padding: 5%;
 }
-
-.skillsSec {
+main .skillsSec {
   padding: 5%;
 }
-
-.personalInfo div, .skillsSec div {
+main .personalInfo div,
+main .skillsSec div {
   height: 5px;
   width: 90px;
+  margin: 25px 0;
   background-color: #545454;
+}
+main h2 {
+  letter-spacing: 0.6rem;
+}
+main h2 span {
+  display: block;
+  margin-top: 0.5rem;
 }
 
 body {
@@ -66,6 +73,10 @@ header {
 
 .skillsSec {
   background-color: #EFEFEF;
+}
+
+main h2 {
+  color: #545454;
 }
 
 header {

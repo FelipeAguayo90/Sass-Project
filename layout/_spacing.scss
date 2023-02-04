@@ -40,19 +40,31 @@ header {
     }
 }
 
-.personalInfo {
-    width: 35%;
-    padding: 5%;
-    
-}
+main {
+    .personalInfo {
+        width: 35%;
+        padding: 5%;
 
-.skillsSec {
-    padding: 5%;
+    }
 
-}
+    .skillsSec {
+        padding: 5%;
 
-.personalInfo div, .skillsSec div {
-    height: 5px;
-    width: 90px;
-    background-color: $font-color;
+    }
+
+    .personalInfo div,
+    .skillsSec div {
+        height: 5px;
+        width: 90px;
+        margin: 25px 0;
+        background-color: $font-color;
+    }
+
+    h2 {
+        letter-spacing: .6rem;
+        span {
+            display: block;
+            margin-top: .5rem;
+        }
+    }
 }

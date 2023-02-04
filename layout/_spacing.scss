@@ -2,7 +2,7 @@
 
 
 .container {
-    max-width: 80%;
+    max-width: 70%;
     margin: 0 auto;
     margin-top: 5%;
     overflow: hidden;
@@ -43,17 +43,24 @@ header {
 main {
     .personalInfo {
         width: 35%;
-        padding: 5%;
-
+        padding: 0 5% 5% 5%;
+        p {
+            line-height: 1.7rem;
+            color: $font-color;
+            font-size: $p-size;
+            margin-bottom: 1rem;
+            span {
+                display: block;
+            }
+        }
     }
 
     .skillsSec {
-        padding: 5%;
+        padding: 0 5% 5% 5%;
 
     }
 
-    .personalInfo div,
-    .skillsSec div {
+    .dash {
         height: 5px;
         width: 90px;
         margin: 25px 0;
@@ -61,10 +68,20 @@ main {
     }
 
     h2 {
+        margin-top: 3rem;
         letter-spacing: .6rem;
+        font-size: $h2-size;
+        font-weight: 400;
         span {
             display: block;
             margin-top: .5rem;
         }
     }
 }
+
+.icons div {
+    p {
+        margin-left: 1em;
+    }
+}
+

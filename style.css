@@ -4,7 +4,7 @@
 }
 
 .container {
-  max-width: 80%;
+  max-width: 70%;
   margin: 0 auto;
   margin-top: 5%;
   overflow: hidden;
@@ -37,24 +37,39 @@ header {
 
 main .personalInfo {
   width: 35%;
-  padding: 5%;
+  padding: 0 5% 5% 5%;
+}
+main .personalInfo p {
+  line-height: 1.7rem;
+  color: #545454;
+  font-size: 1.3rem;
+  margin-bottom: 1rem;
+}
+main .personalInfo p span {
+  display: block;
 }
 main .skillsSec {
-  padding: 5%;
+  padding: 0 5% 5% 5%;
 }
-main .personalInfo div,
-main .skillsSec div {
+main .dash {
   height: 5px;
   width: 90px;
   margin: 25px 0;
   background-color: #545454;
 }
 main h2 {
+  margin-top: 3rem;
   letter-spacing: 0.6rem;
+  font-size: 1.5rem;
+  font-weight: 400;
 }
 main h2 span {
   display: block;
   margin-top: 0.5rem;
+}
+
+.icons div p {
+  margin-left: 1em;
 }
 
 body {
@@ -95,15 +110,18 @@ main {
   flex-wrap: nowrap;
 }
 
+.icons div {
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-start;
+  align-items: flex-start;
+  flex-wrap: nowrap;
+}
+
 body {
   font-family: "Roboto", sans-serif;
 }
 
 h1 {
   font-size: 5rem;
-}
-
-h2 {
-  font-size: 1.5rem;
-  font-weight: 400;
 }/*# sourceMappingURL=style.css.map */

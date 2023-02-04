@@ -15,3 +15,7 @@ header {
 main {
     @include flex-me(flex, row, flex-start, -items, )
 }
+
+.icons div{
+    @include flex-me(flex, row, flex-start, flex-start, )
+}

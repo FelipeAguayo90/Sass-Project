@@ -1,8 +1,11 @@
+@use '../base/variables' as *;
+
 body {
-    background: rgb(238,174,202);
-    background: radial-gradient(circle, rgba(238,174,202,1) 0%, rgba(233,223,148,1) 100%);
+    background: rgb(174, 176, 238);
+    background: radial-gradient(circle, rgba(174, 176, 238, 1) 0%, rgba(13, 78, 153, 0.836594012605042) 100%);
 }
 
-// header div {
-
-// }
+header {
+    background-image: linear-gradient(rgba(255, 255, 255, 0.5), rgba(255, 255, 255, 0.5)), url('images/greek-building.jpg');
+    background-position: 50% 30%;
+}

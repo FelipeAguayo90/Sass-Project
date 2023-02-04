@@ -1,9 +1,20 @@
 @use 'base/reset';
 @use 'layout/spacing';
 @use 'base/colors';
+@use 'layout/flex';
+@use 'base/variables' as *;
 
 body {
-    font-family: 'Roboto', sans-serif;
+    font-family: $my-font;
+}
+
+h1 {
+    font-size: $h1-size;
+}
+
+h2 {
+    font-size: $h2-size;
+    font-weight: 400;
 }
 
 // header {
@@ -12,9 +23,4 @@ body {
     
 // }
 
-header {
-    background-image: linear-gradient(rgba(255,255,255,0.5), rgba(255,255,255,0.5)), url('images/greek-building.jpg');
-    background-position: 50% 30%;
-    
-    
-}
+

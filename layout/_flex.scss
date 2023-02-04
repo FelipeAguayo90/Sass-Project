@@ -1,7 +1,13 @@
 
 
-@mixin flex-me {
-    display: flex;
-    justify-content: flex-start;
-    align-items: center;
+@mixin flex-me ($flex: flex, $direction, $jcontent, $a-items, $wrap: nowrap){
+    display: $flex;
+    flex-direction: $direction;
+    justify-content: $jcontent;
+    align-items: $a-items;
+    flex-wrap: $wrap;
+}
+
+header {
+    @include flex-me(flex, row, space-between, center,)
 }

@@ -4,38 +4,64 @@
 }
 
 .container {
-  max-width: 90%;
+  max-width: 80%;
   margin: 0 auto;
+  margin-top: 5%;
   overflow: hidden;
+  box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+}
+
+.marginLeft, .profilePic {
+  margin-left: 5%;
+}
+
+.marginRight, header :nth-child(2) {
+  margin-right: 5%;
 }
 
 header {
-  margin-top: 5%;
   height: 400px;
 }
-
 .profilePic {
   overflow: hidden;
-  height: 250px;
-  width: 250px;
-  border-radius: 125px;
+  height: 300px;
+  width: 300px;
+  border-radius: 150px;
 }
 .profilePic img {
-  height: 350px;
+  height: 400px;
+  width: auto;
   position: relative;
   bottom: 50px;
 }
 
 body {
-  background: rgb(238, 174, 202);
-  background: radial-gradient(circle, rgb(238, 174, 202) 0%, rgb(233, 223, 148) 100%);
+  background: rgb(174, 176, 238);
+  background: radial-gradient(circle, rgb(174, 176, 238) 0%, rgba(13, 78, 153, 0.8365940126) 100%);
+}
+
+header {
+  background-image: linear-gradient(rgba(255, 255, 255, 0.5), rgba(255, 255, 255, 0.5)), url("images/greek-building.jpg");
+  background-position: 50% 30%;
+}
+
+header {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+  flex-wrap: nowrap;
 }
 
 body {
   font-family: "Roboto", sans-serif;
 }
 
-header {
-  background-image: linear-gradient(rgba(255, 255, 255, 0.5), rgba(255, 255, 255, 0.5)), url("images/greek-building.jpg");
-  background-position: 50% 30%;
+h1 {
+  font-size: 5rem;
+}
+
+h2 {
+  font-size: 1.5rem;
+  font-weight: 400;
 }/*# sourceMappingURL=style.css.map */

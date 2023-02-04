@@ -1,25 +1,38 @@
-
+@use '../base/variables' as *;
 
 
 .container {
-    max-width: 90%;
+    max-width: 80%;
     margin: 0 auto;
+    margin-top: 5%;
     overflow: hidden;
+    box-shadow: $my-box-shadow;
+}
+
+.marginLeft {
+    margin-left: 5%;
+}
+
+.marginRight {
+    margin-right: 5%;
 }
 
 header {
-    margin-top: 5%;
     height: 400px;
-    // display: ;
+    :nth-child(2) {
+        @extend .marginRight;
+    }
 }
 
 .profilePic {
     overflow: hidden;
-    height: 250px;
-    width: 250px;
-    border-radius: 125px;
+    height: 300px;
+    width: 300px;
+    border-radius: 150px;
+    @extend .marginLeft;
     img {
-        height: 350px;
+        height: 400px;
+        width: auto;
         position: relative;
         bottom: 50px;
     }

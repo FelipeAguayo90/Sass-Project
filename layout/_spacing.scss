@@ -57,6 +57,32 @@ main {
 
     .skillsSec {
         padding: 0 5% 5% 5%;
+        ul {
+            list-style-position: outside;
+            margin-left: 1rem;
+        }
+       
+        li {
+            font-size: $p-size;
+            line-height: 1.7rem;
+            color: $font-color;
+            padding-left: 0.7rem;
+        }
+        p {
+            line-height: 1.7rem;
+            color: $font-color;
+            font-size: $p-size;
+            margin-bottom: 1rem; 
+        }
+        h3 {
+            line-height: 1.7rem;
+            color: $font-color;
+            font-size: $p-size;
+            margin-bottom: .5rem;
+            span {
+                font-weight: 500;
+            }
+        }
 
     }
 

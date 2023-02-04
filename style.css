@@ -51,6 +51,31 @@ main .personalInfo p span {
 main .skillsSec {
   padding: 0 5% 5% 5%;
 }
+main .skillsSec ul {
+  list-style-position: outside;
+  margin-left: 1rem;
+}
+main .skillsSec li {
+  font-size: 1.3rem;
+  line-height: 1.7rem;
+  color: #545454;
+  padding-left: 0.7rem;
+}
+main .skillsSec p {
+  line-height: 1.7rem;
+  color: #545454;
+  font-size: 1.3rem;
+  margin-bottom: 1rem;
+}
+main .skillsSec h3 {
+  line-height: 1.7rem;
+  color: #545454;
+  font-size: 1.3rem;
+  margin-bottom: 0.5rem;
+}
+main .skillsSec h3 span {
+  font-weight: 500;
+}
 main .dash {
   height: 5px;
   width: 90px;

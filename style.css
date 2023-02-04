@@ -35,6 +35,15 @@ header {
   bottom: 50px;
 }
 
+.personalInfo {
+  width: 35%;
+  margin: 5%;
+}
+
+.skillsSec {
+  margin: 5%;
+}
+
 body {
   background: rgb(174, 176, 238);
   background: radial-gradient(circle, rgb(174, 176, 238) 0%, rgba(13, 78, 153, 0.8365940126) 100%);
@@ -45,11 +54,23 @@ header {
   background-position: 50% 30%;
 }
 
+.mainInner :nth-child(1) {
+  background-color: #FFFFFF;
+}
+
 header {
   display: flex;
   flex-direction: row;
   justify-content: space-between;
   align-items: center;
+  flex-wrap: nowrap;
+}
+
+main {
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-start;
+  align-items: -items;
   flex-wrap: nowrap;
 }
 

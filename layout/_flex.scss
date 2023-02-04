@@ -11,3 +11,7 @@
 header {
     @include flex-me(flex, row, space-between, center,)
 }
+
+main {
+    @include flex-me(flex, row, flex-start, -items, )
+}

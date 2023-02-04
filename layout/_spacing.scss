@@ -19,6 +19,7 @@
 
 header {
     height: 400px;
+
     :nth-child(2) {
         @extend .marginRight;
     }
@@ -30,10 +31,20 @@ header {
     width: 300px;
     border-radius: 150px;
     @extend .marginLeft;
+
     img {
         height: 400px;
         width: auto;
         position: relative;
         bottom: 50px;
     }
+}
+
+.personalInfo {
+    width: 35%;
+    margin: 5%;
+}
+
+.skillsSec {
+    margin: 5%;
 }

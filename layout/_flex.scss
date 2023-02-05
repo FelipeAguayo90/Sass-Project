@@ -19,3 +19,32 @@ main {
 .icons div{
     @include flex-me(flex, row, flex-start, flex-start, )
 }
+
+@media only screen and (max-width: 900px) {
+    header {
+        @include flex-me(flex, column, center, center, );
+        :nth-child(2) {
+            @include flex-me(flex, column, center, center, )
+        }
+
+    }
+
+    main {
+        @include flex-me(flex, column, flex-start, center, );
+        .personalInfo {
+            width: 90%;
+            padding: 2rem;
+        }
+    }
+}
+
+@media only screen and (max-width: 1050px) {
+    header {
+        @include flex-me(flex, column, center, center, );
+        :nth-child(2) {
+            @include flex-me(flex, column, center, center, )
+        }
+
+    }
+
+}

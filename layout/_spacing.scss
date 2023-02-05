@@ -1,5 +1,8 @@
 @use '../base/variables' as *;
 
+h1 {
+    font-size: $h1-size;
+}
 
 .container {
     max-width: 70%;
@@ -60,6 +63,7 @@ main {
         ul {
             list-style-position: outside;
             margin-left: 1rem;
+            margin-bottom: 1.3rem;
         }
        
         li {
@@ -111,3 +115,42 @@ main {
     }
 }
 
+@media only screen and (max-width: 600px) {
+    .container {
+        max-width: 100%;
+        margin-top: 0;
+    }
+
+    h1 {
+        font-size: 2.5rem;
+    }
+
+    header {
+        h2 {
+            font-size: 1rem;
+        }
+
+    }
+
+    .profilePic {
+        margin: 0;
+        overflow: hidden;
+        height: 150px;
+        width: 150px;
+        border-radius: 75px;
+        img {
+            height: 200px;
+            width: auto;
+            position: relative;
+            top: 0.1rem;
+            left: 0.01rem;
+        }
+    }
+
+}
+
+@media only screen and (max-width: 1610px) {
+    h1 {
+        font-size: 2.5rem;
+    }
+}

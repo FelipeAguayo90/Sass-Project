@@ -3,6 +3,10 @@
   margin: 0;
 }
 
+h1 {
+  font-size: 5rem;
+}
+
 .container {
   max-width: 70%;
   margin: 0 auto;
@@ -54,6 +58,7 @@ main .skillsSec {
 main .skillsSec ul {
   list-style-position: outside;
   margin-left: 1rem;
+  margin-bottom: 1.3rem;
 }
 main .skillsSec li {
   font-size: 1.3rem;
@@ -97,6 +102,37 @@ main h2 span {
   margin-left: 1em;
 }
 
+@media only screen and (max-width: 600px) {
+  .container {
+    max-width: 100%;
+    margin-top: 0;
+  }
+  h1 {
+    font-size: 2.5rem;
+  }
+  header h2 {
+    font-size: 1rem;
+  }
+  .profilePic {
+    margin: 0;
+    overflow: hidden;
+    height: 150px;
+    width: 150px;
+    border-radius: 75px;
+  }
+  .profilePic img {
+    height: 200px;
+    width: auto;
+    position: relative;
+    top: 0.1rem;
+    left: 0.01rem;
+  }
+}
+@media only screen and (max-width: 1610px) {
+  h1 {
+    font-size: 2.5rem;
+  }
+}
 body {
   background: rgb(174, 176, 238);
   background: radial-gradient(circle, rgb(174, 176, 238) 0%, rgba(13, 78, 153, 0.8365940126) 100%);
@@ -143,10 +179,49 @@ main {
   flex-wrap: nowrap;
 }
 
+@media only screen and (max-width: 900px) {
+  header {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: nowrap;
+  }
+  header :nth-child(2) {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: nowrap;
+  }
+  main {
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: center;
+    flex-wrap: nowrap;
+  }
+  main .personalInfo {
+    width: 90%;
+    padding: 2rem;
+  }
+}
+@media only screen and (max-width: 1050px) {
+  header {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: nowrap;
+  }
+  header :nth-child(2) {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: nowrap;
+  }
+}
 body {
   font-family: "Roboto", sans-serif;
-}
-
-h1 {
-  font-size: 5rem;
 }/*# sourceMappingURL=style.css.map */
